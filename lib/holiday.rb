@@ -66,7 +66,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |holiday, supply_hash|
     suppy_hash.each do |attribute, supply|
       supply.include? "BBQ"
-      return holiday 
-    end 
-  end 
+      return holiday
+    end
+  end
 end
